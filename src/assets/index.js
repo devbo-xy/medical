@@ -1,0 +1,1 @@
+export { default as HeroMed } from "./heroMed.png";
