@@ -1,6 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import Modal from "../Modal";
 
 export default function Navbar() {
+
+    const [openModal, setOpenModal] = useState(false);
 
     useEffect(() => {
         const nav = document.querySelector(".nav");
@@ -13,7 +16,7 @@ export default function Navbar() {
             }
             lastScrollY = window.scrollY;
         })
-        return () => { };
+        return () => { }
     }, []);
 
 
@@ -29,7 +32,9 @@ export default function Navbar() {
 
     const Login = (props) => {
         return (
-            <div className="py-1 px-8 hover:scale-105 rounded-lg bg-[#e0004d] text-white ">
+            <div
+                onClick={() => { setOpenModal(true) }}
+                className="py-1 px-8 hover:scale-105 rounded-lg bg-[#e0004d] text-white ">
                 <a href="">{props.button}</a>
             </div>
         )
@@ -60,6 +65,7 @@ export default function Navbar() {
                     button="Login"
                 />
             </div>
+            {openModal && <Modal closeModal={setOpenModal} />}
         </div>
     )
-};
+}

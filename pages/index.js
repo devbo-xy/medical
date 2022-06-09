@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
-import Hero from "../src/components/Hero";
+import Content from "../src/components/Home/Content";
+import Hero from "../src/components/Home/Hero";
 import Navbar from "../src/components/Navbar";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
         <Fragment>
             <Navbar />
             <Hero />
+            <Content />
         </Fragment>
     )
-};
+}
