@@ -40,7 +40,7 @@ export default function Hero() {
         data-aos="fade-left"
         data-aos-anchor="#example-anchor"
         data-aos-offset="500"
-        data-aos-duration="500"
+        data-aos-duration="2100"
         className="flex flex-row space-x-5"
       >
         <div className="bg-white rounded-md shadow-xl px-5 hover:scale-105 transform">
@@ -70,7 +70,13 @@ export default function Hero() {
     <div className="h-screen w-full items-center bg-white py-20 overflow-hidden">
       <div className="max-w-7xl mx-auto h-full flex flex-row items-center relative">
         <div className="flex flex-col justify-start space-y-5 z-[1]">
-          <div className="w-full">
+          <div
+            data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="800"
+            className="w-full"
+          >
             <h2 className="max-w-xl text-4xl font-semibold">
               Solusi Kesehatan Terlengkap
             </h2>
@@ -84,7 +90,7 @@ export default function Hero() {
               data-aos="fade-left"
               data-aos-anchor="#example-anchor"
               data-aos-offset="500"
-              data-aos-duration="500"
+              data-aos-duration="800"
             >
               <Card image={Icon.IconChat} text1="Chat dengan" text2="Dokter" />
             </div>
@@ -92,7 +98,7 @@ export default function Hero() {
               data-aos="fade-left"
               data-aos-anchor="#example-anchor"
               data-aos-offset="500"
-              data-aos-duration="500"
+              data-aos-duration="1200"
             >
               <Card image={Icon.IconMedis} text1="Toko" text2="Kesehatan" />
             </div>
@@ -100,7 +106,7 @@ export default function Hero() {
               data-aos="fade-left"
               data-aos-anchor="#example-anchor"
               data-aos-offset="500"
-              data-aos-duration="500"
+              data-aos-duration="1500"
             >
               <Card
                 image={Icon.IconJanji}
@@ -112,7 +118,7 @@ export default function Hero() {
               data-aos="fade-left"
               data-aos-anchor="#example-anchor"
               data-aos-offset="500"
-              data-aos-duration="500"
+              data-aos-duration="1800"
               className="flex flex-row space-x-5"
             >
               <div className="bg-white rounded-md shadow-lg hover:scale-105 transform">
