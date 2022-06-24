@@ -37,9 +37,9 @@ export default function Navbar() {
         onClick={() => {
           setOpenModal(true);
         }}
-        className="py-1 px-8 hover:scale-105 rounded-lg bg-[#e0004d] text-white "
+        className="py-1 px-8 hover:scale-105 rounded-lg bg-[#e0004d] cursor-pointer text-white "
       >
-        <a href="">{props.button}</a>
+        <span href="">{props.button}</span>
       </div>
     );
   };
