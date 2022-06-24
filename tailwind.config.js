@@ -6,7 +6,10 @@ module.exports = {
     './src/index.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+      },
+    },
   },
   plugins: [],
 }
