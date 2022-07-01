@@ -192,9 +192,9 @@ export default function Content() {
             <Obat name="Batuk & Flu" />
             <Obat name="Daya Tahan Tubuh" />
             <Obat name="Skincare" />
-            <Obat name="Batuk & Flu" />
-            <Obat name="Batuk & Flu" />
-            <Obat name="Batuk & Flu" />
+            <Obat name="Perawatan Bayi" />
+            <Obat name="Vitamin" />
+            <Obat name="Lihat Semua" />
           </div>
         </div>
       </div>
